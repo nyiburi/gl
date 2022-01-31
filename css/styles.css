@@ -1,0 +1,101 @@
+body{
+	background-color: #252529;
+	background-image: url(../imnages/background.jpg);
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 1.6rem;
+	margin: 0;
+}
+a{
+	color: #ccc;
+	text-decoration: none;
+}
+#showcase{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: url(../images/audience.jpg);
+	height:100vh; /*viewport-height*/
+	margin: 0;
+	overflow: hidden; 
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+#showcase .container{
+	margin-top: 25vh;
+}
+#showcase h1{
+	font-size: 4.5rem;
+	margin-bottom: 0;
+}
+#showcase h3{
+	font-size: 2rem;
+}
+nav{
+	background-color: #0450ef;
+	color: rgb(23,0,32);
+	height:40px;
+	position: fixed;
+	width: 100%; 
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	float: left;
+}
+nav a{
+	color: #eee;
+	display: inline-block;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration:none;
+	width: 100px;
+}
+nav a:hover{
+	background-color: black;
+}
+#aboutus{
+	text-align: center;
+}
+
+hr{
+	width: 25%;
+	opacity: 50%;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1180px;
+	padding: 0 3rem;
+	text-align: center;
+}
+.lead{
+	font-size: 1.3rem;	
+}
+footer .footer-cols{
+	display: grid;
+	font-size: 14px;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+	padding: 1rem;
+	text-align: left;
+}
+ footer .footer-cols li{
+	list-style: none;
+}
+footer .footer-cols ul li:first-child{
+	border-bottom: 1px solid #444;
+	border-width: 5px;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	padding-bottom:.5rempx;
+}
+footer .footer-bottom{
+	background-color: #333;
+	padding: 1rem;
+	text-align: center;
+}
